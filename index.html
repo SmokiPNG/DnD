@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выручай-комната — Ваше антикризисное пространство для игр и отдыха</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎲</text></svg>">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <div class="logo-icon">🎲</div>
+                <div class="logo-text">
+                    <span class="logo-title">Выручай-комната</span>
+                    <span class="logo-subtitle">Ваш побег от обыденности</span>
+                </div>
+            </a>
+            
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О клубе</a></li>
+                <li><a href="#events">Мероприятия</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#rules">Правила</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="#booking" class="btn btn-nav">Забронировать</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Выручай-комната</h1>
+                <p class="hero-subtitle">Ваше антикризисное пространство для настольных игр, кинопоказов и новых знакомств</p>
+                <div class="hero-buttons">
+                    <a href="#events" class="btn btn-primary">Посмотреть афишу</a>
+                    <a href="#booking" class="btn btn-secondary">Забронировать стол</a>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <a href="#about"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Что вас здесь выручит -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Что вас здесь <span class="highlight">выручит?</span></h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Настольные игры</h3>
+                    <p>Более 200 игр: от классики до новинок, D&D-кампании, покер-вечера и турниры. Все необходимое для игры уже ждет вас.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎬</div>
+                    <h3>Кино и мастер-классы</h3>
+                    <p>Тематические кинопоказы, уроки оригами, рисования миниатюр и создание игр. Развиваемся и отдыхаем вместе.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Сообщество</h3>
+                    <p>Здесь вас ждут, даже если вы пришли один. Находите команду для кампаний, друзей по интересам и единомышленников.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О клубе -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Наша <span class="highlight">философия</span></h2>
+                    <p>Мы — наследники «Эчпочмак клуба», но с новой миссией. «Выручай-комната» — это не просто настольная. Это пространство, куда приходят, чтобы выручить себя от скуки, одиночества, стресса и рутины.</p>
+                    <p>Две специально оборудованные комнаты позволяют нам одновременно проводить разные события: в одной может идти эпическая битва в D&D, а в другой — уютный кинопоказ или мастер-класс.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-text">игр в коллекции</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2</span>
+                            <span class="stat-text">специальные комнаты</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">7/7</span>
+                            <span class="stat-text">дней в неделю</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="room-card room-card-1">
+                            <h4>Комната Актеров</h4>
+                            <p>Для D&D, живых игр и стратегий</p>
+                        </div>
+                        <div class="room-card room-card-2">
+                            <h4>Комната Зрителей</h4>
+                            <p>Для кино, мастер-классов и тихих игр</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Мероприятия -->
+    <section class="events" id="events">
+        <div class="container">
+            <h2 class="section-title">Карта <span class="highlight">спасения</span></h2>
+            <div class="event-filters">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="dnd">D&D</button>
+                <button class="filter-btn" data-filter="cinema">Кино</button>
+                <button class="filter-btn" data-filter="workshop">Мастер-классы</button>
+                <button class="filter-btn" data-filter="tournament">Турниры</button>
+            </div>
+            <div class="events-grid">
+                <!-- Карточки мероприятий генерируются через JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Истории <span class="highlight">спасения</span></h2>
+            <p class="section-subtitle">Лучшие моменты из жизни нашего клуба</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background-color: #FF9E6D;">
+                        <div class="gallery-overlay">
+                            <p>Эпическая битва в D&D</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background-color: #6DA3FF;">
+                        <div class="gallery-overlay">
+                            <p>Кинопоказ с обсуждением</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background-color: #6DFF9E;">
+                        <div class="gallery-overlay">
+                            <p>Мастер-класс по оригами</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background-color: #FF6DFF;">
+                        <div class="gallery-overlay">
+                            <p>Покер-вечер</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Правила -->
+    <section class="rules" id="rules">
+        <div class="container">
+            <h2 class="section-title">Кодекс <span class="highlight">убежища</span></h2>
+            <div class="rules-grid">
+                <div class="rule-card">
+                    <div class="rule-icon">🤝</div>
+                    <h3>Мы друг друга выручаем</h3>
+                    <p>Уважаем всех игроков, помогаем новичкам, создаем комфортную атмосферу для всех.</p>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-icon">🧹</div>
+                    <h3>Бережем игровое пространство</h3>
+                    <p>Спасаем игровые компоненты от чая и крошек. После игры приводим все в порядок.</p>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-icon">🛡️</div>
+                    <h3>Безопасная среда</h3>
+                    <p>Мы против дискриминации и токсичного поведения. Здесь каждый найдет свою компанию.</p>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-icon">📅</div>
+                    <h3>Предупредите, если отменяете</h3>
+                    <p>Сообщите дежурному об отмене брони, чтобы мы могли «спасти» чей-то вечер.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Бронирование -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking-content">
+                <div class="booking-text">
+                    <h2 class="section-title">Готовы к <span class="highlight">спасению?</span></h2>
+                    <p>Забронируйте стол для игры или запишитесь на ближайшее мероприятие. Мы поможем подобрать игру по вашему вкусу и настроению.</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Часы работы спасателей</h4>
+                                <p>Пн-Чт: 16:00-23:00</p>
+                                <p>Пт-Вс: 14:00-01:00</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Телефон для брони</h4>
+                                <p>+7 (XXX) XXX-XX-XX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-form">
+                    <h3>Заявка на бронирование</h3>
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Дата визита</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Количество гостей</label>
+                            <select id="guests">
+                                <option value="1-2">1-2 человека</option>
+                                <option value="3-4">3-4 человека</option>
+                                <option value="5-6">5-6 человек</option>
+                                <option value="7+">Более 6 человек</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+                        <p class="form-note">Мы перезвоним в течение часа для подтверждения</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="section-title">Как нас <span class="highlight">найти</span></h2>
+            <div class="contacts-content">
+                <div class="contacts-info">
+                    <div class="contact-details">
+                        <h3><i class="fas fa-map-marker-alt"></i> Адрес</h3>
+                        <p>ул. Примерная, 123, офис 45</p>
+                        <p>Метро "Центральная", 5 минут пешком</p>
+                        
+                        <h3><i class="fas fa-envelope"></i> Социальные сети</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-vk"></i> VK</a>
+                            <a href="#" class="social-link"><i class="fab fa-telegram"></i> Telegram</a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts-map">
+                    <div class="map-placeholder">
+                        <div class="map-marker">
+                            <i class="fas fa-map-pin"></i>
+                        </div>
+                        <p>Здесь будет карта с нашим местоположением</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">🎲</div>
+                    <div class="logo-text">
+                        <span class="logo-title">Выручай-комната</span>
+                        <span class="logo-subtitle">Ваш побег от обыденности</span>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Главная</a>
+                    <a href="#about">О клубе</a>
+                    <a href="#events">Мероприятия</a>
+                    <a href="#rules">Правила</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>© 2023 Выручай-комната. Наследники Эчпочмак клуба.</p>
+                    <p>Создано с ❤️ для всех, кто ищет спасения от скуки.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
